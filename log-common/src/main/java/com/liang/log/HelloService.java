@@ -16,6 +16,7 @@ public class HelloService {
     HelloService service = new HelloService();
     String result = service.service("liang");
     logger.info(result);
+    logger.info(result);
   }
 
 }
