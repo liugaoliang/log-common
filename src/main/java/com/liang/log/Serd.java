@@ -3,9 +3,9 @@ package com.liang.log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class HelloService {
+public class Serd {
   
-  private static final Logger logger = LoggerFactory.getLogger(HelloService.class);
+private static final Logger logger = LoggerFactory.getLogger(Serd.class);
   
   public String service(String name) {
     logger.info("receive message {}", name);
@@ -13,7 +13,7 @@ public class HelloService {
   }
   
   public static void main(String[] args) {
-    HelloService service = new HelloService();
+    Serd service = new Serd();
     String result = service.service("liang");
     logger.info(result);
     logger.info(result);
