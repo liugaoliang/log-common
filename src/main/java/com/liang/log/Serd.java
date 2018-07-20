@@ -16,6 +16,7 @@ private static final Logger logger = LoggerFactory.getLogger(Serd.class);
     Serd service = new Serd();
     String result = service.service("liang");
     logger.info(result);
+    logger.info(result + 1);
   }
 
 }
